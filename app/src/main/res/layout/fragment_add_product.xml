@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_fill_backgound"
+    android:orientation="vertical"
+    tools:context=".Fragment.AddProductFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fillbackgroud_addproduct"
+        android:fontFamily="@font/alata"
+        android:text="Add Product"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C3F3DE"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Name"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtProductNameADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:paddingLeft="30dp"
+                android:inputType="textCapWords"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Price"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtProductPriceADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:paddingLeft="30dp"
+                android:inputType="number"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Category"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height= "wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvCategoryAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="category"
+                    android:paddingLeft="30dp"
+                    android:inputType="number"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/tvClickHereAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Click Here"
+                    android:clickable="true"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:inputType="number"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Remain"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtProductRemainADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Remain"
+                android:paddingLeft="30dp"
+                android:inputType="number"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Product Description"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtProductDescriptionADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:paddingLeft="30dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="Feature"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="30dp"
+                android:text="Brand"
+                android:gravity="center"
+                android:background="@drawable/fillbackgroud_type"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+            <Spinner
+                android:id="@+id/spnBrandAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="30dp"
+                android:text="Camera"
+                android:gravity="center"
+                android:background="@drawable/fillbackgroud_type"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/spnCameraAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="30dp"
+                android:text="Ram"
+                android:gravity="center"
+                android:background="@drawable/fillbackgroud_type"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/spnRAMAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="30dp"
+                android:text="ROM"
+                android:gravity="center"
+                android:background="@drawable/fillbackgroud_type"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+            <Spinner
+                android:id="@+id/spnROMAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#208021"
+        android:fontFamily="@font/baloo"
+        android:padding="10dp"
+        />
+</LinearLayout>

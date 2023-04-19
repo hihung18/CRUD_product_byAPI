@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/alata</item>
+        <item>@font/alice</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/average</item>
+        <item>@font/baloo</item>
+    </array>
+</resources>
